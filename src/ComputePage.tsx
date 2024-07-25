@@ -10,7 +10,7 @@ import ComputeForm from './nillion/components/ComputeForm';
 import ConnectionInfo from './nillion/components/ConnectionInfo';
 
 export default function Main() {
-  const programName = 'addition_simple';
+  const programName = 'secret_addition';
   const outputName = 'my_output';
   const partyName = 'Party1';
   const [userkey, setUserKey] = useState<string | null>(null);
